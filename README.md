@@ -1,4 +1,10 @@
+English:
+Environment setup: JDK 11, Python 3.6, PyCharm, Neo4j Community 4.2.16 (Windows). Step 1: Establish a connection to the knowledge graph: 1. Press Win+R. 2. Type "cmd" and press Enter. 3. Type "neo4j.bat console". Step 2: Run the code: 1. Run "answer_search.py" (used to traverse data; run this after adding, deleting, or modifying data; no need to run if there are no changes). 2. Run "build_graph.py" (used to build the knowledge graph). 3. Run "chatbot_graph.py" (used to set up the retrieval-based Q&A process). 4. Run "code.py" (used to launch the frontend; the port is displayed as http://0.0.0.0:8080/). 5. Access the frontend interface and replace "0.0.0.0" with "127.0.0.1". Step 3: Enter text into the dialog box to display the corresponding retrieval results.
 
+Note: If running "code.py" results in an error, the port is likely occupied. You can identify the process using port 8080, terminate that process, and then run the program again; it should then execute successfully.
+
+
+中文：
 环境配置：jdk11  python3.6  pycharm  neo4j-community-4.2.16-windows
 第一步，建立知识图谱的连接：
 1、win+R
